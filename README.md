@@ -6,11 +6,13 @@ Repository for the photic sneezing case study report: **Sneezing in response to 
 
 # Reproducing the analysis
 
+## Cloning the repository
+
 This repository first needs to be cloned to a local directory on your machine.
 
 ## Dependency management
 
-This Python project uses [uv](https://docs.astral.sh/uv/) for package management.
+This Python project supports [uv](https://docs.astral.sh/uv/) and [pixi](https://pixi.sh/latest/) for package management, using a [`pyproject.toml`](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) configuration file.
 Open the terminal, cd to the directory of the cloned repository, and type `uv sync` to set up a virtual environment with the correct packages installed and with the correct versions.
 
 ## Downloading data
