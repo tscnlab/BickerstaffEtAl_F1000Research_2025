@@ -1,7 +1,6 @@
 data/
 /outputs
 .python-version
-uv.lock
 /bin
 # pixi environments
 .pixi/*
