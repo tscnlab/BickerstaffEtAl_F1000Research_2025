@@ -3,3 +3,6 @@ data/
 .python-version
 uv.lock
 /bin
+# pixi environments
+.pixi/*
+!.pixi/config.toml

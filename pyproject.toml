@@ -13,3 +13,12 @@ dependencies = [
     "scipy>=1.16.1",
     "seaborn>=0.13.2",
 ]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+bickerstaffetal-f1000-research-2025 = { path = ".", editable = true }
+
+[tool.pixi.tasks]
