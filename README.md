@@ -27,7 +27,8 @@ The data contains:
 1. Experimental data for both the "30-min" and "one-shot" laboratory parts: `data/30_min_exp` and `data/one_shot_exp`
     Each trial folder contains both:
     a. Pupillary data, including eye video recordings and Pupil Capture exports (needed for pupil size analysis)
-    b. Subjective feeling reports, under the format `sneeze_data_[PID].csv`
+    b. Subjective feeling reports, under the format `sneeze_data_[PID].csv`.
+    NOTES: Trials 25 and 53 do not have sneeze data files.
 
 2. Light exposure and sneeze log data: `data/actiwatch`
     The folder contains:
