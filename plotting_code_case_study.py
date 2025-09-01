@@ -40,8 +40,8 @@ class plotPupilData:
         random.seed(4)
         
         # Specifying path
-        path = 'D:/photic_sneeze/data/one_shot_exp/'
-        dirs = os.listdir(path)[:-1] # minus test directory
+        path = '/data/one_shot_exp/'
+        dirs = os.listdir(path)
         dirs.pop(25) # minus trial 25 which doesn't have sneeze data for some reason
         dirs.pop(52) # minus trial 53 which doesn't have sneeze data for some reason
         

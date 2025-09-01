@@ -1,1 +1,4 @@
 data/
+/outputs
+.python-version
+uv.lock
