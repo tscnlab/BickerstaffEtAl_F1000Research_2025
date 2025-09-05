@@ -64,6 +64,7 @@ The data contains:
 The structure of the individual trial folders is as follows, generated from the Pupil Core software. More info:
 - <https://docs.pupil-labs.com/core/developer/recording-format/>
 - <https://docs.pupil-labs.com/core/software/recording-format/>
+- <https://docs.pupil-labs.com/core/software/pupil-player/#export>
 
 The subjective reporting data was not generated using Pupil Core but added there for convenience.
 
