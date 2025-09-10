@@ -16,10 +16,10 @@ This Python project supports [uv](https://docs.astral.sh/uv/) and [pixi](https:/
 
 If you use either: open the terminal, cd to the directory of the cloned repository, and type `uv sync` or `pixi install --locked` (or other) to set up a virtual environment with the correct packages installed and with the correct versions.
 
-## Downloading data
+## Downloading the data
 
-1. The data must be downloaded from an online repository, accessible at [URL – Edmond]. You can choose between downloading the exports only (around 4 Gb) or the full dataset including eye videos (200 Gb).
-2. The downloaded data must then placed in the cloned repository directory. The folder should be renamed to `data`!
+1. The data must be downloaded from the Max Planck Digital Library (MDPL) data repository [Edmond](https://doi.org/10.17617/3.LO8EXZ). You can choose between downloading the exports only (around 4 Gb) or the full dataset including eye videos (200 Gb).
+2. The downloaded data must then placed in the cloned repository directory. **The folder should be renamed to `data`!**
 
 ### Data structure
 
